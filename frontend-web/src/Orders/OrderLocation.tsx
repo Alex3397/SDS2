@@ -83,7 +83,7 @@ function OrderLocation({ onChangeLocation }: Props) {
                             />
                             <Marker position={address.position}>
                                 <Popup>
-                                    A pretty CSS3 popup. <br /> Easily customizable.
+                                    {address.label}
                                 </Popup>
                             </Marker>
                         </MapContainer>
